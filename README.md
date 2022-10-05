@@ -1,4 +1,4 @@
-<h1 align="center">Hi there!<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="25"/></h1>
+<h1>Hi there!<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="25"/></h1>
 
 My name is Ilya Drobyshevskiy. I am a student at the Faculty of Computer Science(program AMI) at the Higher
 School of Economics in Moscow.
