@@ -32,6 +32,7 @@ School of Economics in Moscow.
 ![](https://img.shields.io/badge/Pandas-informational?style=flat&logo=pandas&color=33FCFF)
 ![](https://img.shields.io/badge/Scipy-informational?style=flat&logo=scipy&color=33FCFF)
 ![](https://img.shields.io/badge/Scikit--learn-informational?style=flat&logo=scikitlearn&color=33FCFF)
+![](https://img.shields.io/badge/Plotly-informational?style=flat&logo=plotly&color=33FCFF)
 ![](https://img.shields.io/badge/Seaborn-informational?style=flat&logo=seaborn&color=33FCFF)
 ![](https://img.shields.io/badge/Matplotlib-informational?style=flat&color=33FCFF)
 
