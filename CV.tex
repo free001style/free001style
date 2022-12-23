@@ -1,0 +1,169 @@
+\documentclass{resume}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% \usepackage{fontawesome}
+\usepackage{fontawesome5}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!50!red,
+  urlcolor=blue
+}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\name{\;\;\;\;\;\;\;\;\;\;\;Ilya Drobyshevskiy} % Your name
+\address{Moscow, Russia} % Your address
+\address{
+    \faTelegram \enspace \href{https://t.me/free001style}{free001style}\\
+    \faGithub \enspace \href{https://github.com/free001style}{free001style}\\
+    \faEnvelope \enspace \href{mailto:iadrobyshevskiy@edu.hse.ru}{iadrobyshevskiy@edu.hse.ru}
+}   
+
+
+\begin{document}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Higher School of Economics}{Moscow, Russia}
+      {Bachelor of Applied Mathematics and Computer Science;  GPA: 6.44}{Sep 2021 -- Present}
+      \resumeItemListStart
+      \medskip
+      \resumeItem{Relevant courses} {Algorithms and Data Structures, Programming in Python, C++, Linear Algebra, Probability Theory and Statistics, Graph Theory, Abstract Algebra, Calculus.}
+      \resumeItemListEnd
+      \bigskip
+      \resumeSubheading
+        {Olphys school(physics)}{Moscow, Russia}{}{Oct 2019 -- Nov 2019}
+        \bigskip
+      \resumeSubheading
+        {Olphys school(physics)}{Moscow, Russia}{}{Oct 2017 -- Nov 2017}
+        \bigskip
+      \resumeSubheading
+        {Gymnasium №7}{Vitebsk, Belarus}{}{Sep 2010 -- May 2021}
+  \resumeSubHeadingListEnd
+
+
+\section{Experience}
+Nothing so far, but I'm doing my best
+
+
+\section{Teaching Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Higher School of Economics}{Moscow, Russia}
+      {Teacher assistant on the Linear Algebra course}{Sep 2022 -- Present}
+      \resumeItemListStart
+      \medskip
+      \resumeItem{Tasks} {Checking individual homeworks of a group of 30 people, assistance in conducting exams and consultations.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://github.com/free001style/Cian_Avito_project}{Cian-Avito}}
+      {A team Python/Vue.js project, the essence of which is to obtain information about apartments from popular services and display on the map with option immediately calculate the mortgage (number of years, monthly payment).}
+      \bigskip
+    \resumeSubItem{\href{https://github.com/free001style/image_processor}{Image-processor}}
+      {A console application that allows to apply various filters to images, similar to filters in popular graphic editors.}
+      \bigskip
+     \resumeSubItem{\href{https://github.com/free001style/Deep_Python-HSE/blob/main/HW-1_data_analysis/Drobyshevskiy_Ilya_HW_1_data_analysis.ipynb}{Olist analyzing}}
+      {In this notebook I tried myself as an analyst in the Brazilian marketplace Olist. I researched the data and made conclusions based on them that will help the business grow.}
+      \bigskip
+    \resumeSubItem{\href{https://github.com/free001style/LinearAlgebra-HSE/blob/main/homework-practice-02-linregr-Drobyshevskiy.ipynb}{Diamond price prediction}}
+      {Linear model for diamond price prediction. Used optimizations: polynomial features, L2-regularization.}
+      \bigskip
+    \resumeSubItem{\href{https://github.com/free001style/LinearAlgebra-HSE/blob/main/homework_practice_03_linregr.ipynb}{SVD}}
+      {Example of data compression with singular value decomposition.}
+    
+  \resumeSubHeadingListEnd
+
+\section{Skills}
+ \resumeSubHeadingListStart
+    \item{
+    \textbf{Languages}{: Russian (Native), English (Upper-Intermediate)}
+    }
+   \item{
+     \textbf{Programming languages}{: Python, C/C++, SQL, Bash, Assembly}
+   }
+   \item{\textbf{Technologies}{: Git, Docker, Markdown, HTML}}
+   \item{\textbf{Software skills}{: Django, Flask, NumPy, Pandas, Plotly/Dash}}
+ \resumeSubHeadingListEnd
+
+
+\end{document}
