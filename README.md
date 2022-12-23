@@ -57,4 +57,4 @@ School of Economics in Moscow.
   iadrobyshevskiy@edu.hse.ru<br />
   x545275@gmail.com
 
-## More information in my CV(TODO)
+## More information in my [CV](https://github.com/free001style/free001style/blob/main/CV.pdf)
